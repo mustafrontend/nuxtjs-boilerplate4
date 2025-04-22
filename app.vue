@@ -29,7 +29,7 @@ const wpGonder = () => {
   
   window.open(url, '_blank');
 }
-openWhatsApp();
+openWhatsApp(); 
 
 }
 
