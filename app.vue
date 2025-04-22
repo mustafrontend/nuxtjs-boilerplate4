@@ -42,7 +42,7 @@ openWhatsApp();
     <div :class="['video-wrapper', route.path != '/' ? 'lightBar' : '']">
       <header class="p-4 text-black">
         <video autoplay muted loop playsinline>
-          <source :src="`/_nuxt/assets/img/video${videoPlayer}.mp4`" type="video/mp4" />
+          <source :src="`/img/video${videoPlayer}.mp4`" type="video/mp4" />
           Tarayıcınız video etiketini desteklemiyor.
         </video>
 
